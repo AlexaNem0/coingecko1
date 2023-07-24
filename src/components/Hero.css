@@ -1,0 +1,65 @@
+.hero .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 4rem auto;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.hero .left {
+  padding: 1rem;
+}
+
+.hero h1 {
+  padding: 1rem 0;
+}
+
+.invest {
+  color: #adb5bd;
+}
+.hero .input-container {
+  padding: 1rem 0;
+}
+
+.form_style {
+  width: 18.5rem;
+  display: flex;
+  flex-direction: column;
+
+  gap: 1rem;
+}
+
+.form_style .btn {
+  width: 283px;
+}
+
+.hero .right {
+  padding: 1rem;
+}
+
+.hero .img-container {
+  width: 100%;
+  display: flex;
+}
+
+.hero img {
+  max-width: 80%;
+  margin: auto;
+}
+
+@media screen and (max-width: 940px) {
+  .hero .container {
+    grid-template-columns: 1fr;
+    margin: 1rem 0;
+  }
+}
+
+@media screen and (max-width: 478px) {
+  .form_style {
+    width: 100%;
+  }
+  .form_style .btn {
+    width: 100%;
+  }
+}
